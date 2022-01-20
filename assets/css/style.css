@@ -25,6 +25,11 @@ a {
     font-size: 1rem;
 }
 
+header a:hover {
+    color: #337ab7;
+
+}
+
 .logo {
     color: #666;
     font-size: 2rem;
