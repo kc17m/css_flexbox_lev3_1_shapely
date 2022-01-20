@@ -1,0 +1,126 @@
+/* Font-family:"Raleway"
+Headerhöhe:76px
+Logofarbe: #666
+Logofarbe in hover: #333
+Menüfarbe: #333 
+Menüfarbe in hover: #337ab7 */
+
+* {
+    box-sizing: border-box ;  
+    padding: 0;
+    margin: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.logo {
+    color: #666;
+        font-size: 2rem;
+}
+
+
+.logo:hover {
+    color: #333;
+}    
+    
+
+header {
+    height: 20%;
+    border-bottom: 1px solid #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;   
+    padding: 2%;
+    align-items: center; 
+    height: 20%;
+    
+}
+
+
+
+ul {
+    display: flex;     
+    align-items: center; 
+    list-style: none;
+    justify-content: flex-end;
+   
+}
+
+li  {
+    padding: 0 3%;
+    display: inline-block;
+    width: 90%;
+}
+
+/* main  */
+
+main {
+    background: url(../img/photo.jpeg) no-repeat center/cover;
+    height: 90vh;
+}
+
+main h1, main p, main a {
+    color: #fff;
+    text-align: center;
+   
+ 
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 30% 0 5% 0;
+    font-size: 4rem;
+    font-weight: 200 ;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+main nav {
+    margin: 1% auto;
+    font-size: 2rem;
+    width: 50%;
+}
+    
+.purple, .white {
+    border: 1px solid #fff;    
+    padding: 3% 5%;
+    width: 46%;
+}
+
+.purple {
+    background-color: #745cf9;
+    border: none;
+}
+.purple:hover {
+    background-color: #5234f9;
+}
+
+
+
+
+
+
+
+
+
