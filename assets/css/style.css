@@ -33,7 +33,7 @@ header a:hover {
 .logo {
     color: #666;
     font-size: 2rem;
-    display: flex;
+    
 }
 
 
@@ -55,31 +55,29 @@ nav {
        
 }
 
-div:nth-of-type(1) {
+/* div:nth-of-type(1) {
     display: flex;
     justify-content: start;
-
 }
-
+*/
 div:nth-of-type(2) {
-    display: flex;
-    justify-content: end;
-
-}
+    width: 60%;
+} 
 
 
 ul {
-    display: flex;     
-    align-items: center; 
     list-style: none;
+    display: flex;
     justify-content: end;
-    gap: 1%;
-    
+    gap: 2%;
+           
    
 }
 
 li  {
-    margin: 0 2% 0% 0;
+    padding: 0 0% 0% 0;   
+    font-size: .5rem;
+    
     
 }
 
