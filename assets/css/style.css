@@ -101,6 +101,8 @@ section {
     
 }
 
+
+
 h1 {
     padding: 30% 0 5% 0;
     font-size: 4rem;
@@ -138,6 +140,7 @@ main nav {
     text-align: left;
     margin: 5% 0;
     line-height: 1.5rem;
+    padding: 1%;
     
 } 
 
@@ -159,7 +162,8 @@ h2 {
 }
 
 .seo img, .portfolio img {
-    width: 100%
+    width: 100%;
+ 
 }
 
 .seo img {
